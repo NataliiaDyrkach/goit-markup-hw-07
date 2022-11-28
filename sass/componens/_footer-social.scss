@@ -1,0 +1,42 @@
+.socialinvite {
+  margin-left: 70px;
+}
+
+.socialinvite__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $primary-white-color;
+}
+
+.socialicon {
+    display: flex;
+}
+
+.socialicon__item {
+  width: 44px;
+  height: 44px;
+  margin: 0 10px 30px 0;
+  border-radius: 50%;
+  background-color: $title-text-color;
+  transition: background-color 250ms $transition-timing-function;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.socialicon__icon {
+  margin: 12px 12px;
+  fill: $primary-white-color;
+}
+
+

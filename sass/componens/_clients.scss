@@ -1,0 +1,30 @@
+.clientslist {
+    display: flex;
+}
+
+.clientslist__icons {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    margin-right: 18px;
+    transition: color 500ms $transition-timing-function,
+        border-color 500ms $transition-timing-function;
+
+
+&:last-child {
+    margin-right: 0;
+}
+
+&:hover,
+&:focus {
+    color: $accent-color;
+    border-color: $accent-color;
+}
+}
+
+
+.clientslist__logo {
+    margin: 16px 32px;
+    fill: currentColor;
+}
